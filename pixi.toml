@@ -1,0 +1,14 @@
+[workspace]
+authors = ["Travis Hathaway <travis.j.hathaway@gmail.com>"]
+channels = ["conda-forge"]
+name = "osm-destatis"
+platforms = ["linux-64", "win-64", "osx-arm64", "osx-64"]
+version = "0.1.0"
+
+[tasks]
+
+
+[dependencies]
+postgresql = ">=18.1,<19"
+postgis = ">=3.6.1,<4"
+pgrouting = ">=4.0.0,<5"

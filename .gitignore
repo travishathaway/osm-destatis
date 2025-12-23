@@ -74,3 +74,6 @@ dist/
 # vim
 *.swp
 *.swo
+# pixi environments
+.pixi/*
+!.pixi/config.toml
